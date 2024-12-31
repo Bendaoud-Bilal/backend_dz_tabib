@@ -43,6 +43,8 @@ app.include_router(working_days_router)
 app.include_router(homepage_router)
 app.include_router(adv_search_router)
 app.include_router(evaluate_router)
+app.include_router(appointment_router)
+
 
 @app.on_event("startup")
 async def on_startup():
